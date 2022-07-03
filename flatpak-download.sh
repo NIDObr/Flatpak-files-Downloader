@@ -13,6 +13,11 @@
 # Ex:
 # ./flatpak_download.sh com.google.Chrome
 
+[ -z ${1} ] && {
+	printf  "${0}: Error!\n\nUsage:\n	./flatpak_download.sh < flatpak repo >\nEx:\n	./flatpak_download.sh com.google.Chrome\n\n"
+	exit 1
+}
+
 mkdir .tmp_download
 cd .tmp_download
 mkdir -p ostree
