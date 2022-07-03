@@ -5,7 +5,7 @@
 # Mais: < https://github.com/NIDObr >
 # Email: coqecoisa@gmail.com
 # Sobre: Download and generate a package containing the files of a flatpak
-# License: BSD-3-Clause License
+# License: GPL-3.0 license
 #------------------------------------------------------------------
 
 # Usage:
